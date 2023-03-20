@@ -12,4 +12,4 @@ DOCKER-COMPOSE: docker-compose version 1.29.2
 
 O trabalho consiste em utilizar o Docker Compose para configurar um ambiente de desenvolvimento que inclui um banco de dados PostgreSQL e Metabase, uma ferramenta de análise e visualização de dados.
 
-Foram criados containers separados para o PostgreSQL e o Metabase, cada um com sua própria configuração. O container do PostgreSQL foi configurado com um banco de dados
+Foram criados containers separados para o PostgreSQL e o Metabase, cada um com sua própria configuração. O container do PostgreSQL foi configurado com um banco de dados, e esse banco foi alimentado com um Dataframe Pandas, extraido do site OLX
